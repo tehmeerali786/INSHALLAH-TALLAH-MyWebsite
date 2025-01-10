@@ -21,6 +21,12 @@ def portfolio(request):
 def llm_based_ai_agents(request):
     return render(request, 'website/llm_based_ai_agents.html')
 
+def basic_ai_enabled_chatbots(request):
+    return render(request, 'website/basic_ai_enabled_chatbots.html')
+
+def deep_learning_nlp(request):
+    return render(request, 'website/deep_learning_nlp.html')
+
 def contact(request):
     if request.method == 'POST':
         form = ContactForm(request.POST)
