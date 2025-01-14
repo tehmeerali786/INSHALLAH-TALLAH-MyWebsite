@@ -144,7 +144,7 @@
                                         <h3>Deep Learning <br>& NLP</h3>
                                         <p>We have been studying machine learning and deep learning since January 2017. Our mathematical backgrounds are solid in this technology. We are extensively trained on Google Tensorflow and Facebook PyTorch. Also, we know AutoKeras. 
                                         </p>
-                                        <a class="read_more" href="dlnlp">Read More</a>
+                                        <a class="read_more" href="{% url "dlnlp" %}">Read More</a>
                                      </div>
                                   </div>
                                   
@@ -314,16 +314,21 @@
 
                   {% csrf_token %}
                    <div class="row">
-                      <div class="col-md-12">
+                      <div class="col-md-12 contactdiv">
                         {{ form.name }}
                         
                       </div>
                       
-                      <div class="col-md-12">
-                        {{ form.email }}
+                      <div class="col-md-12 contactdiv">
+                        {{ form.email.errors }}
+
+                         {{ form.email }}
+
+                         
+                        {{ form.email.help_text }}
                          
                       </div>
-                      <div class="col-md-12">
+                      <div class="col-md-12 contactdiv">
                         {{ form.content }}
                         
                       </div>
