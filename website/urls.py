@@ -13,6 +13,7 @@ path('portfolio/', views.portfolio, name='portfolio'),
 path('aiagents/', views.llm_based_ai_agents, name='aiagents'),
 path('chatbots/', views.basic_ai_enabled_chatbots, name='chatbots'),
 path('dlnlp/', views.deep_learning_nlp, name='dlnlp'),
+path('waid/', views.web_development, name='waid'),
 path('contact/', views.contact, name='contact'),
 
 

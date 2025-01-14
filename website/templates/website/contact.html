@@ -15,16 +15,22 @@
                     {% csrf_token %}
 
                    <div class="row">
-                     <div class="col-md-12">
+                     <div class="col-md-12 contactdiv">
                          {{ form.name }}
-                     </div>
-                     <div class="col-md-12">
-                         {{ form.number}}
-                     </div>
-                     <div class="col-md-12">
+                    </div>
+                     
+                     <div class="col-md-12 contactdiv">
+                        {{ form.email.errors }}
+
                          {{ form.email }}
+
+                         
+                        {{ form.email.help_text }}
+                         
+
+                         
                      </div>
-                     <div class="col-md-12">
+                     <div class="col-md-12 contactdiv">
                          {{ form.content }}
                      </div>
                       <div class="col-md-12">
