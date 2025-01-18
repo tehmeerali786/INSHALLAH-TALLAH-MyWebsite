@@ -17,7 +17,16 @@
                    <div class="row">
                      <div class="col-md-12 contactdiv">
                          {{ form.name }}
-                    </div>
+                     </div>
+
+                     <div class="col-md-12 contactdiv">
+                         {{ form.number.errors }}
+
+                         {{ form.number}}
+
+                         {{ form.number.help_text }}
+                         
+                     </div>
                      
                      <div class="col-md-12 contactdiv">
                         {{ form.email.errors }}

@@ -103,13 +103,7 @@ button:focus {
      outline: none;
 }
 
-ul,
-li,
-ol {
-     margin: 0px;
-     padding: 0px;
-     list-style: none;
-}
+
 
 .markazi-text-content {
     padding-top: 43px;
@@ -469,9 +463,7 @@ ul.email li i {
      padding: 90px 0 190px 0;
 }
 
-.we_do .titlepage::before {
-     border: #2e2f34 solid 5px;
-}
+
 
 .we1_do {
      position: inherit;

@@ -16,6 +16,7 @@ def frontpage(request):
         if form.is_valid():
 
             name = form.cleaned_data['name']
+            number = form.cleaned_data['number']
             email = form.cleaned_data['email']
             content = form.cleaned_data['content']
 
@@ -68,6 +69,7 @@ def contact(request):
         if form.is_valid():
 
             name = form.cleaned_data['name']
+            number = form.cleaned_data['number']
             email = form.cleaned_data['email']
             content = form.cleaned_data['content']
 
