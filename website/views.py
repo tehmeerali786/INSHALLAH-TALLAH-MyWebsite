@@ -23,14 +23,25 @@ def frontpage(request):
             contact = Contact(name=name, number=number, email=email, content=content)
             contact.save()
 
-            print('the form was valid')
+            message = ''' 
+
+                Name: {}
+
+                New Message: {}
+
+                Number: {}
+
+                From: {}
 
 
-            send_mail('The contact form subject', 'This is the message', 'tehmeer012@yahoo.com', ['freelanceali786@gmail.com'])
+            '''.format(name, content, number, email)
+
+
+            send_mail("Message", message, 'a.paryani@adeptaiagents.com', ['a.paryani@adeptaiagents.com'])
 
             return redirect('frontpage')
         else:
-            print('problem with number.')
+            return redirect('contact')
 
     else:
         form = ContactForm()
@@ -76,14 +87,25 @@ def contact(request):
             contact = Contact(name=name, number=number, email=email, content=content)
             contact.save()
 
-            print('the form was valid')
+            message = ''' 
+
+                Name: {}
+
+                New Message: {}
+
+                Number: {}
+
+                From: {}
 
 
-            send_mail('The contact form subject', 'This is the message', 'tehmeer012@yahoo.com', ['freelanceali786@gmail.com'])
+            '''.format(name, content, number, email)
+
+
+            send_mail("Message", message, 'a.paryani@adeptaiagents.com', ['a.paryani@adeptaiagents.com'])
 
             return redirect('contact')
         else:
-            print('problem with number.')
+            return redirect('contact')
 
     else:
         form = ContactForm()
