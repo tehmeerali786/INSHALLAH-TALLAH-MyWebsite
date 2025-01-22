@@ -3,6 +3,8 @@ from django.urls import include, path
 from . import views
 
 
+
+
 urlpatterns = [
 
 path('', include('django.contrib.auth.urls')),
@@ -17,5 +19,6 @@ path('waid/', views.web_development, name='waid'),
 path('contact/', views.contact, name='contact'),
 
 
-
 ]
+
+

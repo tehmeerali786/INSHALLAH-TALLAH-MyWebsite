@@ -23,7 +23,7 @@ def frontpage(request):
             contact = Contact(name=name, number=number, email=email, content=content)
             contact.save()
 
-            message = ''' 
+            message = '''
 
                 Name: {}
 
@@ -87,7 +87,7 @@ def contact(request):
             contact = Contact(name=name, number=number, email=email, content=content)
             contact.save()
 
-            message = ''' 
+            message = '''
 
                 Name: {}
 

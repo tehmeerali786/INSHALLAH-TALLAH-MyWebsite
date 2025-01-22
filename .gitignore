@@ -5,5 +5,7 @@
 /website/static/images/chatbots.png
 /website/static/images/NNs.png
 /website/static/images/banner1.png
+/website/static/images/dashboard.png
+/website/static/images/client.png
 
 *.sqlite3

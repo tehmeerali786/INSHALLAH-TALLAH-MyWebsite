@@ -118,6 +118,12 @@ button:focus {
      color: black;
 }
 
+h1.not_found {
+    font-size: 70px;
+    color: red;
+    margin-bottom: 100px;
+}
+
 p {
      margin: 0px;
      padding: 0;
@@ -422,7 +428,7 @@ ul.email li i {
 }
 
 .banner_main .bluid h1 {
-     color: #ffebcd;
+     color: #fff;
      font-size: 100px;
      line-height: 110px;
      font-weight: bold;
@@ -430,7 +436,7 @@ ul.email li i {
 }
 
 .banner_main .bluid p {
-     color: #ffebcd;
+     color: #fff;
      line-height: 25px;
      font-weight: 500;
      padding-bottom: 50px;
