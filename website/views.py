@@ -112,3 +112,6 @@ def contact(request):
     return render(request, 'website/contact.html', {
         'form': form,
     })
+
+def handler404(request):
+    return render(request, 'website/404.html')

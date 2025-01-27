@@ -464,6 +464,12 @@ ul.email li i {
 
 /** we_do **/
 
+.we_do.services_f {
+    background: #e9e9af;
+    border-width: 17px;
+    border-style: solid;
+}
+
 .we_do {
      background: #fff;
      padding: 90px 0 190px 0;
@@ -482,6 +488,8 @@ ul.email li i {
 }
 
 .we_box {
+     
+     background: #ffff66;
      border: #e6e7e8 solid 1px;
      transition: ease-in all 0.5s;
      padding: 40px;
@@ -556,6 +564,18 @@ ul.email li i {
 
 
 /** about **/
+
+.we_do.about_f {
+    background: bisque;
+    border-width: 17px;
+    border-style: solid;
+}
+
+.row.about_c {
+    padding: 34px;
+
+}
+
 
 .about {
      background: url(../images/about_bg.jpg);
@@ -755,8 +775,14 @@ ul.email li i {
 
 /** contact section **/
 
+.contact.c_f {
+    background: #ffeecc;
+    border-width: 17px;
+    border-style: solid;
+}
+
 .contact {
-     background: #fefeff;
+     
      padding: 90px 0;
 }
 
@@ -834,6 +860,7 @@ ul.email li i {
 }
 
 .clientsl_text {
+     background: #dea821;
      margin-top: 90px;
      box-shadow: 0px 0 11px rgba(30, 30, 30, 0.07);
      padding: 40px;
