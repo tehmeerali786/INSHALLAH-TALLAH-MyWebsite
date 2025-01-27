@@ -471,7 +471,9 @@ ul.email li i {
 }
 
 .we_do {
-     background: #fff;
+     background: bisque;
+     border-width: 17px;
+     border-style: solid;
      padding: 90px 0 190px 0;
 }
 
@@ -775,14 +777,11 @@ ul.email li i {
 
 /** contact section **/
 
-.contact.c_f {
-    background: #ffeecc;
-    border-width: 17px;
-    border-style: solid;
-}
 
 .contact {
-     
+     background: #ffeecc;
+     border-width: 17px;
+     border-style: solid;
      padding: 90px 0;
 }
 
